@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <div class="Navigation">
+        <label class="logo">EPICRICK</label>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="admin_login.php">Reports</a></li>
+            <li><a href="http://localhost/event/contact.php">Message</a></li>
+            <li><a href="logout.php">Logout</a></li>
+            </ul>
+    </div>
+    
+    
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="image/Cricket05.jpg" alt="Image 1"></div>
+            <div class="slide"><img src="image/Cricket 01.jpg" alt="Image 1"></div>
+            <div class="slide"><img src="image/Cricket 02.jpeg" alt="Image 2"></div>
+            <div class="slide"><img src="image/Cricket 03.jpg" alt="Image 3"></div>
+        </div>
+        <button id="prev" onclick="prevSlide()">❮</button>
+        <button id="next" onclick="nextSlide()">❯</button>
+    </div>
+    
+    <div class="wholeservice" id="wholeservice">
+        <div class="services"><p>Services</p></div>
+    </div>
+
+    <div class="day"><h1>For Day Tournaments :</h1></div>
+    <div class="parent">
+        <div class="Box">
+            <a href="day_low.html"><img src="image\day_low.jpg" alt="image1"></a>
+            <a href="day_low.html"><h1>Products</h1>
+            <p>Schedule, water management, Pavilion, Commentary, Medals, Stump, Ball</p></a>
+        </div>
+        <div class="Box">
+            <a href="day_mid.html"><img src="image\day_mid.jpg" alt="image2"></a>
+            <a href="day_mid.html"><h1>Products</h1>
+            <p>Schedule, Water Management, Jershy(Tshirt), Pavillion, Comentary, Medal Ceremony, Umpires</p></a>
+        </div>
+        <div class="Box">
+            <a href="day_high.html"><img src="image\day_high.jpg" alt="image3"></a>
+            <a href="day_high.html"><h1>Products</h1>
+            <p>Schedule, Water Management, Medical Facilities, Jershy(FUll), Pavillion, Comentary, <br>Medal Ceremony with Chief Guest, <br>Live Stream</p></a>
+        </div>
+    </div>
+
+
+    <div class="nightbackground"><div class="night"><h1>For Night Tournaments :</h1></div>
+        <div class="parent2">
+            <div class="Box2">
+                <a href="night_low.html"><img src="image/night_low.jpg" alt="image1"></a>
+                <a href="night_low.html"><h1>Products</h1>
+                <p>Light, Schedule, water management, Pavilion, Commentary, Medals, Stump, Ball</p></a>
+            </div>
+            <div class="Box2">
+                <a href="night_mid.html"><img src="image/night_mid.jpg" alt="image2"></a>
+                <a href="night_mid.html"><h1>Products</h1>
+                <p>Light, Schedule, Water Management, Jershy(Tshirt), Pavillion, Comentary, Medal Ceremony, Umpires</p></a>
+            </div>
+            <div class="Box2">
+                <a href="night_high.html"><img src="image/night_high.jpg" alt="image3"></a>
+                <a href="night_high.html"><h1>Products</h1>
+                <p> Light, Schedule, Water Management, Medical Facilities, Jershy(FUll), Pavillion, Comentary, Medal Ceremony with Chief Guest, Live Stream</p></a>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="about_us"> 
+            <div class="about_us_child">
+                <div class="background_clr"><a href="about_us.html"><p>About Us</p></a></div>
+            </div>
+        </div>
+
+
+    <div class="blog"><h1>BLOGS</h1></div>
+        <div class="blog_parent">
+            <div class="Blog_box">
+                <a href="blog1.html"><h1>Gitkera</h1>
+                <p>I wanted to take a moment to express my gratitude and provide feedback on the recent cricket event that you organized. The experience was truly remarkable, and I want to commend your team for their outstanding efforts in making it a success.</p></a>
+            </div>
+            <div class="Blog_box">
+                <a href="blog2.html"><h1>Parsadih</h1>
+                <p>I hope this message finds you well. I am writing to express my thoughts and provide feedback on the recent cricket tournament that took place under your management. Overall, I would like to commend the entire team for their hard work and dedication in organizing the event.</p></a>
+            </div>
+            <div class="Blog_box">
+                <a href="blog3.html"><h1>Guma</h1>
+                <p>I wanted to express my sincere appreciation for the excellent management of the recent cricket tournament. The overall organization and execution were truly exceptional, and I believe your team's efforts played a significant role in making the event a great success.</p></a>
+            </div>
+        </div>
+    </div>
+   
+    <div id="aboutus">
+        <div class="backgroundimg"> 
+            <div class="loginpage">
+                <div class="organize"><p>We organize only tennis ball cricket competition.</p></div>
+                <div class="contact_us"><p>Contact Us</p></div>
+                <div class="contact_no"><i class="fa fa-phone"></i><p>9165931016</p></div>
+                <div class="contact_mail"><i class="fa fa-envelope email"></i><p>dverma9165@gmail.com</p></div>
+                <div class="last"><p>2024, All Right Reserved @ EpiCrick | Web Design & Development By Deepak Verma</p></div>
+            </div>
+        </div>
+   </div>
+
+   <script defer src="myscripts.js"></script>
+</body>
+</html>

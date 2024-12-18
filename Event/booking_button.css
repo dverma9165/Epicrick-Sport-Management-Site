@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.book_now{
+    margin: 5vw 10vw;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 1vw;
+    font-weight: 800;
+    padding: 2vw;
+    transition: transform 0.3s;
+}
+.book_now:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 black;
+}
+.book_now p{
+    color: black;
+    text-decoration: none;
+}
